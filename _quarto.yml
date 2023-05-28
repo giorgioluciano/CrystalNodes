@@ -7,8 +7,20 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
-
+     
+  sidebar:
+    style: "floating"
+    search: true
+    contents:
+      - section: "Basics"
+        contents:
+          - index.qmd
+          
+      - section: "Nodes"
+        contents:
+          - tools.qmd
+          - primitives.qmd
+          - growth pattern.qmd
 format:
   html:
     theme: simplex

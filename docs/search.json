@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "CrystalNodes",
+    "title": "What is it?",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Crystal Nodes (CN) is an addon for the 3D modelling & animation program Blender that enables easy creation of crystals illustrations. CN is focused on providing tools for providing Crystallography illustrations and it is not (for now) a computational tool for calculating inorganic structures"
   },
   {
     "objectID": "about.html",
@@ -12,5 +12,12 @@
     "title": "About",
     "section": "",
     "text": "About this site"
+  },
+  {
+    "objectID": "index.html#features",
+    "href": "index.html#features",
+    "title": "What is it?",
+    "section": "Features:",
+    "text": "Features:\n\ngeneric tools for creating a basic grain form (extended primitives nodeand nodes for non isometric crystal system)\ntools for instancing grains according to the most common growth patter (radiating, plumose, parallel, granular, felted, foliated )\ntools for creating h,k,l planes, extruding faces, mirroring faces and to instance objs accoring to bravais translation"
   }
 ]
