@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>CrystalNodes - What is it?</title>
+<title>CrystalNodes - Installation</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -90,7 +90,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">What is it?</h1>
+      <h1 class="quarto-secondary-nav-title">Installation</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -118,7 +118,12 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">What is it?</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">What is it?</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./install.html" class="sidebar-item-text sidebar-link active">Installation</a>
   </div>
 </li>
       </ul>
@@ -131,11 +136,6 @@ ul.task-list li input[type="checkbox"] {
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./install.html" class="sidebar-item-text sidebar-link">Installation</a>
-  </div>
-</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./tools.html" class="sidebar-item-text sidebar-link">Tools</a>
@@ -160,7 +160,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#features" id="toc-features" class="nav-link active" data-scroll-target="#features">Features:</a></li>
+  <li><a href="#download" id="toc-download" class="nav-link active" data-scroll-target="#download">Download</a></li>
+  <li><a href="#installing-the-addon" id="toc-installing-the-addon" class="nav-link" data-scroll-target="#installing-the-addon">Installing the Addon</a></li>
   </ul>
 </nav>
     </div>
@@ -169,7 +170,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">What is it?</h1>
+<h1 class="title d-none d-lg-block">Installation</h1>
 </div>
 
 
@@ -184,14 +185,48 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Crystal Nodes (CN) is an addon for the 3D modelling &amp; animation program <a href="https://blender.org">Blender</a> that enables easy creation of crystals illustrations. CN is focused on providing tools for providing Crystallography illustrations and it is not (for now) a computational tool for calculating inorganic structures</p>
-<section id="features" class="level2">
-<h2 class="anchored" data-anchor-id="features">Features:</h2>
-<ul>
-<li><p>generic tools for creating a basic grain form (extended primitives nodeand nodes for non isometric crystal system)</p></li>
-<li><p>tools for instancing grains according to the most common growth patter (radiating, plumose, parallel, granular, felted, foliated )</p></li>
-<li><p>tools for creating h,k,l planes, extruding faces, mirroring faces and to instance objs accoring to bravais translation</p></li>
-</ul>
+<section id="download" class="level2">
+<h2 class="anchored" data-anchor-id="download">Download</h2>
+<p>Download the latest bundled release from the <a href="https://github.com/giorgioluciano/CrystalNodes/tree/main/CrystalNodes/releases">releases page</a>. Don’t download the GitHub repo itself, as this won’t install inside of Blender.</p>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Safari
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>When downloading on MacOS with Safari, it automatically unzips the file into a <code>MolecularNodes</code> folder. This is extremely unhelpful as Blender requires the <code>.zip</code> file to install the addon. Either download with a different browser, or compress the folder again to <code>MolecularNodes.zip</code>.</p>
+</div>
+</div>
+</section>
+<section id="installing-the-addon" class="level2">
+<h2 class="anchored" data-anchor-id="installing-the-addon">Installing the Addon</h2>
+<div class="callout-warning callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Windows Administrator
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>If you are on Windows, you may need to run Blender as Administrator to successfully complete the following installation. If you are unsing Blender Launcher https://dotbow.github.io/Blender-Launcher/ , just launch you favorite version of Blender and that’s it</p>
+</div>
+</div>
+<blockquote class="blockquote">
+<p>Open Preferences Panel</p>
+</blockquote>
+<ol type="1">
+<li>Click `Edit’ -&gt; ‘Preferences’ or press <kbd>Cmd</kbd> + <kbd> ,</kbd> on Mac.</li>
+<li>Click ‘Install’ while in ‘Add-ons’</li>
+<li>Select <code>Crystal Nodes_X.zip</code> (the downloaded file stored in your pc/mac)</li>
+</ol>
+<p><img src="images/cn-pref-install.png" class="img-fluid"></p>
+<p><img src="images/cn-pref-install2.png" class="img-fluid"></p>
 
 
 </section>

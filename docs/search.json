@@ -19,5 +19,33 @@
     "title": "What is it?",
     "section": "Features:",
     "text": "Features:\n\ngeneric tools for creating a basic grain form (extended primitives nodeand nodes for non isometric crystal system)\ntools for instancing grains according to the most common growth patter (radiating, plumose, parallel, granular, felted, foliated )\ntools for creating h,k,l planes, extruding faces, mirroring faces and to instance objs accoring to bravais translation"
+  },
+  {
+    "objectID": "install.html",
+    "href": "install.html",
+    "title": "Installation",
+    "section": "",
+    "text": "Download the latest bundled release from the releases page. Don’t download the GitHub repo itself, as this won’t install inside of Blender.\n\n\n\n\n\n\nSafari\n\n\n\nWhen downloading on MacOS with Safari, it automatically unzips the file into a MolecularNodes folder. This is extremely unhelpful as Blender requires the .zip file to install the addon. Either download with a different browser, or compress the folder again to MolecularNodes.zip."
+  },
+  {
+    "objectID": "install.html#installing-the-addon",
+    "href": "install.html#installing-the-addon",
+    "title": "Installation",
+    "section": "Installing the Addon",
+    "text": "Installing the Addon\n\n\n\n\n\n\nWindows Administrator\n\n\n\nIf you are on Windows, you may need to run Blender as Administrator to successfully complete the following installation. If you are unsing Blender Launcher https://dotbow.github.io/Blender-Launcher/ , just launch you favorite version of Blender and that’s it\n\n\n\nOpen Preferences Panel\n\n\nClick `Edit’ -> ‘Preferences’ or press Cmd +  , on Mac.\nClick ‘Install’ while in ‘Add-ons’\nSelect Crystal Nodes_X.zip (the downloaded file stored in your pc/mac)"
+  },
+  {
+    "objectID": "primitives.html",
+    "href": "primitives.html",
+    "title": "Primitives",
+    "section": "",
+    "text": "Inputs\nName The name of the attribute to read.\n\n\nProperties\n\n\nOutputs\nAttribute The attribute data stored on the geometry.\nExists True if the attribute accessed by the node is present in the connected context."
+  },
+  {
+    "objectID": "tools.html",
+    "href": "tools.html",
+    "title": "Tools",
+    "section": "",
+    "text": "the following tools are present\n\nExtrude\nh k l\nElongation/Thickness\nMirror\nBravais"
   }
 ]

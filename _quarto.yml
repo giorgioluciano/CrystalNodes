@@ -15,9 +15,11 @@ website:
       - section: "Basics"
         contents:
           - index.qmd
+          - install.qmd
           
       - section: "Nodes"
         contents:
+         
           - tools.qmd
           - primitives.qmd
           - growth pattern.qmd
