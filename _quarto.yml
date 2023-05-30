@@ -22,7 +22,7 @@ website:
          
           - tools.qmd
           - primitives.qmd
-          - growth pattern.qmd
+          - growth_pattern.qmd
 format:
   html:
     theme: simplex

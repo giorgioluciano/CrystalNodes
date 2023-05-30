@@ -32,7 +32,7 @@
     "href": "install.html#installing-the-addon",
     "title": "Installation",
     "section": "Installing the Addon",
-    "text": "Installing the Addon\n\n\n\n\n\n\nWindows Administrator\n\n\n\nIf you are on Windows, you may need to run Blender as Administrator to successfully complete the following installation. If you are unsing Blender Launcher https://dotbow.github.io/Blender-Launcher/ , just launch you favorite version of Blender and that’s it\n\n\n\nOpen Preferences Panel\n\n\nClick `Edit’ -> ‘Preferences’ or press Cmd +  , on Mac.\nClick ‘Install’ while in ‘Add-ons’\nSelect Crystal Nodes_X.zip (the downloaded file stored in your pc/mac)"
+    "text": "Installing the Addon\n\n\n\n\n\n\nWindows Administrator\n\n\n\nIf you are on Windows, you may need to run Blender as Administrator to successfully complete the following installation. If you are using Blender Launcher (https://dotbow.github.io/Blender-Launcher/) , just launch you favorite version of Blender and that’s it\n\n\n\nOpen Preferences Panel\n\n\nClick `Edit’ -> ‘Preferences’ or press Cmd +  , on Mac.\nClick ‘Install’ while in ‘Add-ons’\nSelect Crystal Nodes_X.zip (the downloaded file stored in your pc/mac)"
   },
   {
     "objectID": "primitives.html",

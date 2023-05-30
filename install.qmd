@@ -19,7 +19,7 @@ When downloading on MacOS with Safari, it automatically unzips the file into a `
 ### Windows Administrator
 
 If you are on Windows, you may need to run Blender as Administrator to successfully complete the following installation.
-If you are unsing Blender Launcher https://dotbow.github.io/Blender-Launcher/ , just launch you favorite version of Blender and that's it
+If you are using Blender Launcher (https://dotbow.github.io/Blender-Launcher/) , just launch you favorite version of Blender and that's it
 :::
 
 > Open Preferences Panel
