@@ -2,12 +2,10 @@
 title: "Tools"
 ---
 
-
 the following tools are present
 
-- Extrude
-- h k l 
-- Elongation/Thickness
-- Mirror
-- Bravais
-
+-   Extrude
+-   [h k l](hkl.qmd)
+-   Elongation/Thickness
+-   Mirror
+-   Bravais

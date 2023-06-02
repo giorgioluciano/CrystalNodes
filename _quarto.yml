@@ -16,12 +16,12 @@ website:
         contents:
           - index.qmd
           - install.qmd
-          
       - section: "Nodes"
         contents:
-         
-          - tools.qmd
-          - primitives.qmd
+          - section: "Nodes"
+            contents:
+              - hkl.qmd
+          - crystal_forms.qmd
           - growth_pattern.qmd
 format:
   html:

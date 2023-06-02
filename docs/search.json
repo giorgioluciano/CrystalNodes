@@ -18,7 +18,7 @@
     "href": "index.html#features",
     "title": "What is it?",
     "section": "Features:",
-    "text": "Features:\n\ngeneric tools for creating a basic grain form (extended primitives nodeand nodes for non isometric crystal system)\ntools for instancing grains according to the most common growth patter (radiating, plumose, parallel, granular, felted, foliated )\ntools for creating h,k,l planes, extruding faces, mirroring faces and to instance objs accoring to bravais translation"
+    "text": "Features:\n\ngeneric tools for creating basic grain forms:\n\nextended primitives:\n\nOctahedron\nTetrahedron\nDodecahendron\nRombic Dodecahedron\nTetrakis Hexahedron\n\nnon isometric crystal system forms:\n\ntetragonal trapezohedron\ntrigonal - tetragonal - hexagonal - dihexagonal\nditrigonal\nrhombic tetragonal\nnon iso ditetragonal\n\n\ntools for instancing grains according to the most common growth patterns:\n\nFelted\nFoliated\nGranular\nParallel\nPlumose\nRadiating\n\ntools for:\n\ncreating h k l planes\nextruding and faces mirroring\ntranslate according to bravais lattices"
   },
   {
     "objectID": "install.html",
@@ -32,7 +32,7 @@
     "href": "install.html#installing-the-addon",
     "title": "Installation",
     "section": "Installing the Addon",
-    "text": "Installing the Addon\n\n\n\n\n\n\nWindows Administrator\n\n\n\nIf you are on Windows, you may need to run Blender as Administrator to successfully complete the following installation. If you are using Blender Launcher (https://dotbow.github.io/Blender-Launcher/) , just launch you favorite version of Blender and that’s it\n\n\n\nOpen Preferences Panel\n\n\nClick `Edit’ -> ‘Preferences’ or press Cmd +  , on Mac.\nClick ‘Install’ while in ‘Add-ons’\nSelect Crystal Nodes_X.zip (the downloaded file stored in your pc/mac)"
+    "text": "Installing the Addon\n\n\n\n\n\n\nWindows Administrator\n\n\n\nIf you are on Windows, you may need to run Blender as Administrator to successfully complete the following installation. If you are using Blender Launcher , just launch you favorite version of Blender and that’s it\n\n\n\nOpen Preferences Panel\n\n\nClick `Edit’ and 2. ‘Preferences’ or press Cmd +  , on Mac.\nClick ‘Install’ while in ‘Add-ons’\nSelect Crystal Nodes_X.zip (the downloaded file stored in your pc/mac)"
   },
   {
     "objectID": "primitives.html",
@@ -47,5 +47,54 @@
     "title": "Tools",
     "section": "",
     "text": "the following tools are present\n\nExtrude\nh k l\nElongation/Thickness\nMirror\nBravais"
+  },
+  {
+    "objectID": "index.html#reference",
+    "href": "index.html#reference",
+    "title": "What is it?",
+    "section": "Reference",
+    "text": "Reference"
+  },
+  {
+    "objectID": "crystal_forms.html",
+    "href": "crystal_forms.html",
+    "title": "Crystallographics forms",
+    "section": "",
+    "text": "The Crystallographic menu is subdivided in Isometric and Non Isometric forms"
+  },
+  {
+    "objectID": "crystal_forms.html#features",
+    "href": "crystal_forms.html#features",
+    "title": "Crystallographics forms",
+    "section": "Features:",
+    "text": "Features:\n\n\n\nprimitives node"
+  },
+  {
+    "objectID": "crystal_forms.html#isometric",
+    "href": "crystal_forms.html#isometric",
+    "title": "Crystallographics forms",
+    "section": "Isometric:",
+    "text": "Isometric:\nSelect the Iso crystal form you would like to create. If you select more then one form you can apply the modifier and then separate the forms created by material (each form will be created with a different default material)\n\n\n\nSeparate by Materials"
+  },
+  {
+    "objectID": "crystal_forms.html#isometric-1",
+    "href": "crystal_forms.html#isometric-1",
+    "title": "Crystallographics forms",
+    "section": "Non [Non Isometric:]Isometric:",
+    "text": "Non [Non Isometric:]Isometric:"
+  },
+  {
+    "objectID": "crystal_forms.html#non-isometric",
+    "href": "crystal_forms.html#non-isometric",
+    "title": "Crystallographics forms",
+    "section": "Non Isometric",
+    "text": "Non Isometric\n\n\n\nNon Isometric Crystal Forms nodes\n\n\nThe following Non Isometric Crystal forms can be created via the following nodes\n\ntetragonal trapezohedron\ntrigonal - tetragonal - hexagonal - dihexagonal\nditrigonal\nrhombic tetragonal\nnon iso ditetragonal\n\nAll the nodes (except the tetragonal trapezohedron) have options for building the Prism, Pyramid or Dypiramid non Isometric forms.\n\n\n\nNodes ouput"
+  },
+  {
+    "objectID": "hkl.html",
+    "href": "hkl.html",
+    "title": "h k l node",
+    "section": "",
+    "text": "Create h k l faces and planes"
   }
 ]

@@ -2,17 +2,60 @@
 title: "CrystalNodes"
 ---
 
-
 ---
 title: "What is it?"
 ---
 
-Crystal Nodes (CN) is an addon for the 3D modelling & animation program [Blender](https://blender.org) that enables easy creation of crystals illustrations.  CN is focused on providing tools for providing Crystallography illustrations and it is not (for now) a computational tool for calculating inorganic structures
+Crystal Nodes (CN) is an addon for the 3D modelling & animation program [Blender](https://blender.org) that enables easy creation of crystals illustrations. CN is focused on providing tools for providing Crystallography illustrations and it is not (for now) a computational tool for calculating inorganic structures
 
 ## Features:
 
-- generic tools for creating a basic grain form (extended primitives nodeand nodes for non isometric crystal system)
+-   generic tools for creating basic grain forms:
 
-- tools for instancing grains according to the most common growth patter (radiating, plumose, parallel, granular, felted, foliated )
+    -   extended primitives:
 
-- tools for creating h,k,l planes, extruding faces, mirroring faces and to instance objs accoring to bravais translation
+        -   Octahedron
+
+        -   Tetrahedron
+
+        -   Dodecahendron
+
+        -   Rombic Dodecahedron
+
+        -   Tetrakis Hexahedron
+
+    -   non isometric crystal system forms:
+
+        -   tetragonal trapezohedron
+
+        -   trigonal - tetragonal  - hexagonal - dihexagonal
+
+        -   ditrigonal
+
+        -   rhombic tetragonal
+
+        -   non iso ditetragonal
+
+-   tools for instancing grains according to the most common growth patterns:
+
+    -   Felted
+
+    -   Foliated
+
+    -   Granular
+
+    -   Parallel
+
+    -   Plumose
+
+    -   Radiating
+
+-   tools for:
+
+    -   creating h k l planes
+    -   extruding and faces mirroring
+    -   translate according to bravais lattices
+
+## Reference
+
+[![](https://zenodo.org/badge/643581424.svg)](https://zenodo.org/badge/latestdoi/643581424)
