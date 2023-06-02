@@ -17,24 +17,16 @@ When downloading on MacOS with Safari, it automatically unzips the file into a `
 ::: callout-warning
 ### Windows Administrator
 
-If you are on Windows, you may need to run Blender as Administrator to successfully complete the following installation.
-If you are using [Blender Launcher](https://dotbow.github.io/Blender-Launcher/) , just launch you favorite version of Blender and that's it
+If you are on Windows, you may need to run Blender as Administrator to successfully complete the following installation. If you are using [Blender Launcher](https://dotbow.github.io/Blender-Launcher/) , just launch you favorite version of Blender and that's it
 :::
 
 > Open Preferences Panel
 
-1. Click "Edit" and 
-". 'Preferences" or press <kbd>Cmd</kbd> + <kbd> ,</kbd> on Mac.
-3. Click "Add-ons"
-4. Click "Install"
-5. Select the downloaded file `Crystal Nodes_X.zip` 
+1.  Click "Edit" and ". 'Preferences" or press <kbd>Cmd</kbd> + <kbd> ,</kbd> on Mac.
+2.  Click "Add-ons"
+3.  Click "Install"
+4.  Select the downloaded file `Crystal Nodes_X.zip`
+
+![](images/cn-install.png){width="1200"}
 
 After installing remember to enable the node
-
-![](images/cn-pref-install-01.png)
-
-![](images/cn-pref-install-02.png)
-
-![](images/cn-pref-install-03.png)
-
-![](images/cn-pref-install-04.png)

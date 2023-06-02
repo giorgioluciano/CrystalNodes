@@ -32,7 +32,7 @@
     "href": "install.html#installing-the-addon",
     "title": "Installation",
     "section": "Installing the Addon",
-    "text": "Installing the Addon\n\n\n\n\n\n\nWindows Administrator\n\n\n\nIf you are on Windows, you may need to run Blender as Administrator to successfully complete the following installation. If you are using Blender Launcher , just launch you favorite version of Blender and that’s it\n\n\n\nOpen Preferences Panel\n\n\nClick “Edit” and “. ’Preferences” or press Cmd +  , on Mac.\nClick “Add-ons”\nClick “Install”\nSelect the downloaded file Crystal Nodes_X.zip\n\nAfter installing remember to enable the node"
+    "text": "Installing the Addon\n\n\n\n\n\n\nWindows Administrator\n\n\n\nIf you are on Windows, you may need to run Blender as Administrator to successfully complete the following installation. If you are using Blender Launcher , just launch you favorite version of Blender and that’s it\n\n\n\nOpen Preferences Panel\n\n\nClick “Edit” and “. ’Preferences” or press Cmd +  , on Mac.\nClick “Add-ons”\nClick “Install”\nSelect the downloaded file Crystal Nodes_X.zip\n\n\nAfter installing remember to enable the node"
   },
   {
     "objectID": "primitives.html",
@@ -95,14 +95,14 @@
     "href": "hkl.html",
     "title": "h k l node",
     "section": "",
-    "text": "Create h k l faces and planes"
+    "text": "Create h k l faces and planes according to the input given by the user. It includes also options for labeling, multiplying the indexes by an integer factor and increase the face (plane) size."
   },
   {
     "objectID": "gpatterns.html",
     "href": "gpatterns.html",
     "title": "Growth Pattern",
     "section": "",
-    "text": "These nodes takes care of helping you in creating the habits of your crystalline masses. The following patterns are included\n\nFelted\nFoliated\nGranular\nParallel\nPlumose\nRadiating\n\nAll nodes have in common the possibility to Translate, Rotate and Scale the pattern and also to randomize scale of the grains. An option for rotating the grains is also present where needed. Its due to remind the user that elongate minerals can form parallel, radiating and felted masses. Micaceous and platy minerals grows in foliated and plumose forms while equant minerals can form granular masses."
+    "text": "These nodes takes care of helping you in creating the habits of your crystalline masses. The following patterns are included\n\nFelted\nFoliated\nGranular\nParallel\nPlumose\nRadiating\n\nAll nodes have in common the possibility to Translate, Rotate and Scale the pattern and also to randomize scale of the grains. An option for rotating the grains is also present where needed. Its due to remind the user that elongate minerals can form parallel, radiating and felted masses. Micaceous and platy minerals grows in foliated and plumose forms while equant minerals can form granular masses.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPattern nodes example granular\n\n\nA realize instance and mesh bolean nodes were added in order to have cleaner topology. Please notice that the boolean node can highly impact the computation of the node group."
   },
   {
     "objectID": "gpatterns.html#examples",
@@ -110,5 +110,33 @@
     "title": "Growth Pattern",
     "section": "Examples",
     "text": "Examples\n\n\n\nPattern nodes example\n\n\nA realize instance and mesh bolean nodes were added in order to have cleaner topology. Please notice that the boolean node can highly impact the computation of the node group."
+  },
+  {
+    "objectID": "extrude.html",
+    "href": "extrude.html",
+    "title": "Extrude node",
+    "section": "",
+    "text": "Wrap node for extrude function. The user can select the face to extrude. Helpful while used in combination with the iso/non iso forms and with the hk l node"
+  },
+  {
+    "objectID": "mirror.html",
+    "href": "mirror.html",
+    "title": "Mirror node",
+    "section": "",
+    "text": "Mirror the selected obj (can be a plane, a grain or a crystal assembly) on the X, Y or Z axis. Multiple axes can be selected. The node can be also applied recursively to mirror mirrored objects."
+  },
+  {
+    "objectID": "elongation.html",
+    "href": "elongation.html",
+    "title": "Elongation/thickness node",
+    "section": "",
+    "text": "Elongate or/and increase, decrease the thickenss of custom input granin/assembly/object"
+  },
+  {
+    "objectID": "bravais.html",
+    "href": "bravais.html",
+    "title": "Bravais node",
+    "section": "",
+    "text": "Create a bravais lattices. Useful for instancing grains/ assemblies / objects. The input are a, b, c and gamma parameters. The number of objects is automatically increases while increasing the size of the lattice."
   }
 ]

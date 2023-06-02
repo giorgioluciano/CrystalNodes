@@ -1,0 +1,7 @@
+---
+title: "Bravais node"
+---
+
+Create a bravais lattices. Useful for instancing grains/ assemblies / objects. The input are a, b, c and gamma parameters. The number of objects is automatically increases while increasing the size of the lattice.
+
+![](images/cn-tools-bravais-example01.png){width="1600"}

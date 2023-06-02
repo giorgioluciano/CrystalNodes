@@ -22,7 +22,12 @@ website:
           - gpatterns.qmd
           - section: "Tools"
             contents:
+              - bravais.qmd
+              - elongation.qmd
+              - extrude.qmd
               - hkl.qmd
+              - mirror.qmd
+              
          
 format:
   html:

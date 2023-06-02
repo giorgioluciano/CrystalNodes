@@ -2,4 +2,6 @@
 title: "h k l node"
 ---
 
-Create h k l faces and planes  
+Create h k l faces and planes according to the input given by the user. It includes also options for labeling, multiplying the indexes by an integer factor and increase the face (plane) size.
+
+![](images/cn-tools-hkl-example01.png)

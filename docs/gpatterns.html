@@ -156,7 +156,22 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./bravais.html" class="sidebar-item-text sidebar-link">Elongation/thickness node</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./extrude.html" class="sidebar-item-text sidebar-link">Extrude node</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./hkl.html" class="sidebar-item-text sidebar-link">h k l node</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./mirror.html" class="sidebar-item-text sidebar-link">Mirror node</a>
   </div>
 </li>
       </ul>
@@ -172,8 +187,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples">Examples</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a>
+  <ul class="collapse">
+  <li><a href="#felted" id="toc-felted" class="nav-link" data-scroll-target="#felted">Felted</a></li>
+  <li><a href="#foliated" id="toc-foliated" class="nav-link" data-scroll-target="#foliated">Foliated</a></li>
+  <li><a href="#parallel" id="toc-parallel" class="nav-link" data-scroll-target="#parallel">Parallel</a></li>
+  <li><a href="#plumose" id="toc-plumose" class="nav-link" data-scroll-target="#plumose">Plumose</a></li>
+  <li><a href="#radiating" id="toc-radiating" class="nav-link" data-scroll-target="#radiating">Radiating</a></li>
+  <li><a href="#granular" id="toc-granular" class="nav-link" data-scroll-target="#granular">Granular</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -202,26 +224,46 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="images/cn-pattern-menu.png" class="img-fluid" width="800"></p>
 <p>These nodes takes care of helping you in creating the habits of your crystalline masses. The following patterns are included</p>
 <ol type="1">
-<li>Felted</li>
-<li>Foliated</li>
-<li>Granular</li>
-<li>Parallel</li>
-<li>Plumose</li>
-<li>Radiating</li>
+<li><a href="#felted">Felted</a></li>
+<li><a href="#foliated">Foliated</a></li>
+<li><a href="#granular">Granular</a></li>
+<li><a href="#parallel">Parallel</a></li>
+<li><a href="#plumose">Plumose</a></li>
+<li><a href="#radiating">Radiating</a></li>
 </ol>
 <p>All nodes have in common the possibility to Translate, Rotate and Scale the pattern and also to randomize scale of the grains. An option for rotating the grains is also present where needed. Its due to remind the user that elongate minerals can form parallel, radiating and felted masses. Micaceous and platy minerals grows in foliated and plumose forms while equant minerals can form granular masses.</p>
+<section id="felted" class="level3">
+<h3 class="anchored" data-anchor-id="felted">Felted</h3>
+<p><img src="images/cn-pattern-felted-example01.png" class="img-fluid" width="1200"></p>
 </section>
-<section id="examples" class="level2">
-<h2 class="anchored" data-anchor-id="examples">Examples</h2>
+<section id="foliated" class="level3">
+<h3 class="anchored" data-anchor-id="foliated">Foliated</h3>
+<p><img src="images/cn-pattern-foliated-example01.png" class="img-fluid" width="1200"></p>
+</section>
+<section id="parallel" class="level3">
+<h3 class="anchored" data-anchor-id="parallel">Parallel</h3>
+<p><img src="images/cn-pattern-parallel-example01.png" class="img-fluid" width="1200"></p>
+</section>
+<section id="plumose" class="level3">
+<h3 class="anchored" data-anchor-id="plumose">Plumose</h3>
+<p><img src="images/cn-pattern-plumose-example01.png" class="img-fluid" width="1200"></p>
+</section>
+<section id="radiating" class="level3">
+<h3 class="anchored" data-anchor-id="radiating">Radiating</h3>
+<p><img src="images/cn-pattern-radiating-example.png" class="img-fluid"></p>
+</section>
+<section id="granular" class="level3">
+<h3 class="anchored" data-anchor-id="granular">Granular</h3>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/cn-pattern-example01.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Pattern nodes example</figcaption><p></p>
+<p><img src="images/cn-pattern-example01.png" class="img-fluid figure-img" width="1200"></p>
+<p></p><figcaption class="figure-caption">Pattern nodes example granular</figcaption><p></p>
 </figure>
 </div>
 <p>A realize instance and mesh bolean nodes were added in order to have cleaner topology. Please notice that the boolean node can highly impact the computation of the node group.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

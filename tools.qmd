@@ -4,8 +4,8 @@ title: "Tools"
 
 the following tools are present
 
--   Extrude
+-   [Extrude](extrude.qmd)
 -   [h k l](hkl.qmd)
--   Elongation/Thickness
--   Mirror
--   Bravais
+-   [Elongation/Thickness](elongation.qmd)
+-   [Mirror](mirror.qmd)
+-   [Bravais](bravais.qmd)
