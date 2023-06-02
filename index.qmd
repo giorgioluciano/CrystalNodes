@@ -28,7 +28,7 @@ Crystal Nodes (CN) is an addon for the 3D modelling & animation program [Blender
 
         -   tetragonal trapezohedron
 
-        -   trigonal - tetragonal  - hexagonal - dihexagonal
+        -   trigonal - tetragonal - hexagonal - dihexagonal
 
         -   ditrigonal
 
