@@ -1,0 +1,24 @@
+---
+title: "Growth Pattern"
+---
+
+## Overview
+
+![](images/cn-pattern-menu.png){width="800"}
+
+These nodes takes care of helping you in creating the habits of your crystalline masses. The following patterns are included
+
+1.  Felted
+2.  Foliated
+3.  Granular
+4.  Parallel
+5.  Plumose
+6.  Radiating
+
+All nodes have in common the possibility to Translate, Rotate and Scale the pattern and also to randomize scale of the grains. An option for rotating the grains is also present where needed. Its due to remind the user that elongate minerals can form parallel, radiating and felted masses. Micaceous and platy minerals grows in foliated and plumose forms while equant minerals can form granular masses.
+
+## Examples
+
+![Pattern nodes example](images/cn-pattern-example01.png)
+
+A realize instance and mesh bolean nodes were added in order to have cleaner topology. Please notice that the boolean node can highly impact the computation of the node group.

@@ -18,11 +18,12 @@ website:
           - install.qmd
       - section: "Nodes"
         contents:
-          - section: "Nodes"
+          - crystal_forms.qmd
+          - gpatterns.qmd
+          - section: "Tools"
             contents:
               - hkl.qmd
-          - crystal_forms.qmd
-          - growth_pattern.qmd
+         
 format:
   html:
     theme: simplex
