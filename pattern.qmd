@@ -1,8 +1,8 @@
 ---
-title: "Growth Patter"
+title: "Growth Patterns"
 ---
 
-Includes nodes for creating growth patter ofcrystal forms. Tools included are
+Includes nodes for creating growth patterns of crystal forms. Tools included are
 
 -   Felted    
 -   Foliated
