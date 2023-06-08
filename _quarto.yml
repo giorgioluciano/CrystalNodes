@@ -26,6 +26,9 @@ website:
           - section: "Tools"
             contents:
             - tools.qmd 
+          - section: "Tools"
+            contents:
+            - pattern.qmd 
 format:
   html:
     theme: simplex

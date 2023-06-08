@@ -229,5 +229,12 @@
     "title": "Non Isometric Primitives",
     "section": "",
     "text": "Includes nodes for creating crystal forms for\n\nrhombic\ntetragonal\nditetragonal\ntrigonal\nditrigonal\nhexagonal\ndihexagonal\n\nprism, pyramids and dipyramids."
+  },
+  {
+    "objectID": "pattern.html",
+    "href": "pattern.html",
+    "title": "Growth Patter",
+    "section": "",
+    "text": "Includes nodes for creating growth patter of crystal forms. Tools included are\n\nFelted\n\nFoliated\nGranular\nParallel\nPlumose\nRadiating"
   }
 ]
