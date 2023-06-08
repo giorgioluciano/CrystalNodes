@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "What is it?",
+    "section": "",
+    "text": "Crystal Nodes (CN) is an addon for the 3D modelling & animation program Blender that enables easy creation of crystals illustrations. CN is focused on providing tools for drawing Crystallography illustrations and it is not (for now) a computational tool for calculating inorganic structures"
+  },
+  {
+    "objectID": "index.html#features",
+    "href": "index.html#features",
+    "title": "What is it?",
+    "section": "Features:",
+    "text": "Features:\n\ngeneric tools for creating a basic grain forms (extended primitives node and nodes for non isometric crystal system)\ntools for instancing grains according to the most common growth pattern (radiating, plumose, parallel, granular, felted, foliated )\ntools for creating h,k,l planes, extruding faces, mirroring faces and to instance objs according to Bravais translation"
+  },
+  {
+    "objectID": "tools.html",
+    "href": "tools.html",
+    "title": "Tools",
+    "section": "",
+    "text": "Includes nodes for easying the workflow for creating crystal forms. Tools included are\n\nBravais\nElongation/Thickness\nExtrude\nhkl\nMirror"
+  },
+  {
+    "objectID": "non-iso.html",
+    "href": "non-iso.html",
+    "title": "Non Isometric Primitives",
+    "section": "",
+    "text": "Includes nodes for creating crystal forms for\n\nrhombic\ntetragonal\nditetragonal\ntrigonal\nditrigonal\nhexagonal\ndihexagonal\n\nprism, pyramids and dipyramids."
+  },
+  {
+    "objectID": "install.html",
+    "href": "install.html",
+    "title": "Installation",
+    "section": "",
+    "text": "Download the latest bundled release from the releases page. Don’t download the GitHub repo itself, as this won’t install inside of Blender.\n\n\n\n\n\n\nSafari\n\n\n\nWhen downloading on MacOS with Safari, it automatically unzips the file into a MolecularNodes folder. This is extremely unhelpful as Blender requires the .zip file to install the addon. Either download with a different browser, or compress the folder again to MolecularNodes.zip."
+  },
+  {
+    "objectID": "install.html#installing-the-addon",
+    "href": "install.html#installing-the-addon",
+    "title": "Installation",
+    "section": "Installing the Addon",
+    "text": "Installing the Addon\n\n\n\n\n\n\nWindows Administrator\n\n\n\nIf you are on Windows, you may need to run Blender as Administrator to successfully complete the following installation. If you are using Blender Launcher (https://dotbow.github.io/Blender-Launcher/) , just launch you favorite version of Blender and that’s it\n\n\n\nOpen Preferences Panel\n\n\nClick `Edit’ -> ‘Preferences’ or press Cmd +  , on Mac.\nClick ‘Install’ while in ‘Add-ons’\nSelect Crystal Nodes_X.zip (the downloaded file stored in your pc/mac)\n\nFor further details on Add-ons you can consult the blender manual here"
+  },
+  {
+    "objectID": "pattern.html",
+    "href": "pattern.html",
+    "title": "Growth Patter",
+    "section": "",
+    "text": "Includes nodes for creating growth patter of crystal forms. Tools included are\n\nFelted\n\nFoliated\nGranular\nParallel\nPlumose\nRadiating"
+  },
+  {
+    "objectID": "iso.html",
+    "href": "iso.html",
+    "title": "Isometric Primitives",
+    "section": "",
+    "text": "this node creates a collection of isometric crystal forms:\n\nTetrahedron\nOctahedron\nRhombic\nDodecahedron\nPentagonal Dodecahedron\nDeltoid Dodecahedron\nTristerahedron\nTetartoid\nHextetrahedron\nTetrahexahedron\nTrapezohedron\nTrisoctahedron\nDiploid\nGyroid\nHexoctahedron\n\nIt is a collection node."
+  }
+]
