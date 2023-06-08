@@ -26,7 +26,7 @@ website:
           - section: "Tools"
             contents:
             - tools.qmd 
-          - section: "Tools"
+          - section: "Pattern"
             contents:
             - pattern.qmd 
 format:
