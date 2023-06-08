@@ -1,7 +1,0 @@
----
-title: "Elongation/thickness node"
----
-
-Elongate or/and increase, decrease the thickenss of custom input granin/assembly/object
-
-![](images/cn-tools-elongation-example01.png)

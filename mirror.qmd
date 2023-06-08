@@ -1,7 +1,0 @@
----
-title: "Mirror node"
----
-
-Mirror the selected obj (can be a plane, a grain or a crystal assembly) on the X, Y or Z axis. Multiple axes can be selected. The node can be also applied recursively to mirror mirrored objects.
-
-![](images/cn-tools-mirror-example01.png)

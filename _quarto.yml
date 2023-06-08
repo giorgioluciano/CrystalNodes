@@ -22,7 +22,7 @@ website:
           - section: "Forms"
             contents:
             - iso.qmd
-            - Non-iso.qmd
+            - non-iso.qmd
           - section: "Tools"
             contents:
             - tools.qmd 
