@@ -1,0 +1,23 @@
+---
+title: "Isometric Primitives"
+---
+
+this node creates a *collection* of isometric crystal forms:
+
+-   Tetrahedron
+-   Octahedron
+-   Rhombic
+-   Dodecahedron
+-   Pentagonal Dodecahedron
+-   Deltoid Dodecahedron
+-   Tristerahedron
+-   Tetartoid
+-   Hextetrahedron
+-   Tetrahexahedron
+-   Trapezohedron
+-   Trisoctahedron
+-   Diploid
+-   Gyroid
+-   Hexoctahedron
+
+It is a [collection node](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/input/scene/collection_info.html).

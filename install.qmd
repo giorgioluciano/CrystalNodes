@@ -6,7 +6,6 @@ title: "Installation"
 
 Download the latest bundled release from the [releases page](https://github.com/giorgioluciano/CrystalNodes/tree/main/CrystalNodes/releases). Don't download the GitHub repo itself, as this won't install inside of Blender.
 
-
 ::: callout-note
 # Safari
 
@@ -18,19 +17,13 @@ When downloading on MacOS with Safari, it automatically unzips the file into a `
 ::: callout-warning
 ### Windows Administrator
 
-If you are on Windows, you may need to run Blender as Administrator to successfully complete the following installation.
-If you are using Blender Launcher (https://dotbow.github.io/Blender-Launcher/) , just launch you favorite version of Blender and that's it
+If you are on Windows, you may need to run Blender as Administrator to successfully complete the following installation. If you are using Blender Launcher (https://dotbow.github.io/Blender-Launcher/) , just launch you favorite version of Blender and that's it
 :::
 
 > Open Preferences Panel
 
-1. Click \`Edit' -\> 'Preferences' or press <kbd>Cmd</kbd> + <kbd> ,</kbd> on Mac.
-2. Click 'Install' while in 'Add-ons'
-3. Select `Crystal Nodes_X.zip` (the downloaded file stored in your pc/mac)
+1.  Click \`Edit' -\> 'Preferences' or press <kbd>Cmd</kbd> + <kbd> ,</kbd> on Mac.
+2.  Click 'Install' while in 'Add-ons'
+3.  Select `Crystal Nodes_X.zip` (the downloaded file stored in your pc/mac)
 
-
-![](images/cn-pref-install.png)
-
-![](images/cn-pref-install2.png)
-
-
+For further details on *Add-ons* you can consult the blender manual [here](https://docs.blender.org/manual/en/latest/editors/preferences/addons.html)

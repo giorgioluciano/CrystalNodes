@@ -1,0 +1,15 @@
+---
+title: "Non Isometric Primitives"
+---
+
+Includes nodes for creating crystal forms for
+
+-   rhombic
+-   tetragonal
+-    ditetragonal
+-    trigonal
+-    ditrigonal
+-    hexagonal
+-   dihexagonal
+
+prism, pyramids and dipyramids.

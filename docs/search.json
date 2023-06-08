@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "What is it?",
     "section": "",
-    "text": "Crystal Nodes (CN) is an addon for the 3D modelling & animation program Blender that enables easy creation of crystals illustrations. CN is focused on providing tools for providing Crystallography illustrations and it is not (for now) a computational tool for calculating inorganic structures"
+    "text": "Crystal Nodes (CN) is an addon for the 3D modelling & animation program Blender that enables easy creation of crystals illustrations. CN is focused on providing tools for drawing Crystallography illustrations and it is not (for now) a computational tool for calculating inorganic structures"
   },
   {
     "objectID": "about.html",
@@ -18,7 +18,7 @@
     "href": "index.html#features",
     "title": "What is it?",
     "section": "Features:",
-    "text": "Features:\n\ngeneric tools for creating a basic grain form (extended primitives nodeand nodes for non isometric crystal system)\ntools for instancing grains according to the most common growth patter (radiating, plumose, parallel, granular, felted, foliated )\ntools for creating h,k,l planes, extruding faces, mirroring faces and to instance objs accoring to bravais translation"
+    "text": "Features:\n\ngeneric tools for creating a basic grain forms (extended primitives node and nodes for non isometric crystal system)\ntools for instancing grains according to the most common growth pattern (radiating, plumose, parallel, granular, felted, foliated )\ntools for creating h,k,l planes, extruding faces, mirroring faces and to instance objs according to Bravais translation"
   },
   {
     "objectID": "install.html",
@@ -32,7 +32,7 @@
     "href": "install.html#installing-the-addon",
     "title": "Installation",
     "section": "Installing the Addon",
-    "text": "Installing the Addon\n\n\n\n\n\n\nWindows Administrator\n\n\n\nIf you are on Windows, you may need to run Blender as Administrator to successfully complete the following installation. If you are using Blender Launcher (https://dotbow.github.io/Blender-Launcher/) , just launch you favorite version of Blender and that’s it\n\n\n\nOpen Preferences Panel\n\n\nClick `Edit’ -> ‘Preferences’ or press Cmd +  , on Mac.\nClick ‘Install’ while in ‘Add-ons’\nSelect Crystal Nodes_X.zip (the downloaded file stored in your pc/mac)"
+    "text": "Installing the Addon\n\n\n\n\n\n\nWindows Administrator\n\n\n\nIf you are on Windows, you may need to run Blender as Administrator to successfully complete the following installation. If you are using Blender Launcher (https://dotbow.github.io/Blender-Launcher/) , just launch you favorite version of Blender and that’s it\n\n\n\nOpen Preferences Panel\n\n\nClick `Edit’ -> ‘Preferences’ or press Cmd +  , on Mac.\nClick ‘Install’ while in ‘Add-ons’\nSelect Crystal Nodes_X.zip (the downloaded file stored in your pc/mac)\n\nFor further details on Add-ons you can consult the blender manual here"
   },
   {
     "objectID": "primitives.html",
@@ -44,8 +44,190 @@
   {
     "objectID": "tools.html",
     "href": "tools.html",
-    "title": "Tools",
+    "title": "Non Isometric Primitives",
     "section": "",
-    "text": "the following tools are present\n\nExtrude\nh k l\nElongation/Thickness\nMirror\nBravais"
+    "text": "Includes nodes for easying the workflow for creating crystal forms. Tools included are\n\nBravais\nElongation/Thickness\nExtrude\nhkl\nMirror"
+  },
+  {
+    "objectID": "iso.html",
+    "href": "iso.html",
+    "title": "Isometric Primitives",
+    "section": "",
+    "text": "this node creates a collection of isometric crystal forms:\n\nTetrahedron\nOctahedron\nRhombic\nDodecahedron\nPentagonal Dodecahedron\nDeltoid Dodecahedron\nTristerahedron\nTetartoid\nHextetrahedron\nTetrahexahedron\nTrapezohedron\nTrisoctahedron\nDiploid\nGyroid\nHexoctahedron\n\nIt is a collection node."
+  },
+  {
+    "objectID": "iso.html#inputs",
+    "href": "iso.html#inputs",
+    "title": "CrystalNodes",
+    "section": "Inputs",
+    "text": "Inputs\n\nSize\nSide lengths along each of the main axes."
+  },
+  {
+    "objectID": "iso.html#properties",
+    "href": "iso.html#properties",
+    "title": "CrystalNodes",
+    "section": "Properties",
+    "text": "Properties\nThis node has no properties."
+  },
+  {
+    "objectID": "iso.html#outputs",
+    "href": "iso.html#outputs",
+    "title": "CrystalNodes",
+    "section": "Outputs",
+    "text": "Outputs\n\nMesh\nStandard geometry output.\n\n\nUV Map\nA 2D vector representing the default X/Y coordinates of the UV Map for the primitive’s shape. This can be connected to the /modeling/geometry_nodes/attribute/store_named_attribute, to be used once the Geometry Nodes Modifier get applied. The UV map must be stored on the face corner in order to be accessed."
+  },
+  {
+    "objectID": "tetrahedron.html",
+    "href": "tetrahedron.html",
+    "title": "Tetrahedron Node",
+    "section": "",
+    "text": "The Tetrahedron node generates a tetrahedron mesh with variable side dimensions. The inside of the mesh is hollow."
+  },
+  {
+    "objectID": "tetrahedron.html#inputs",
+    "href": "tetrahedron.html#inputs",
+    "title": "Tetrahedron Node",
+    "section": "Inputs",
+    "text": "Inputs\n\nSize\nSide lengths along each of the main axes."
+  },
+  {
+    "objectID": "tetrahedron.html#properties",
+    "href": "tetrahedron.html#properties",
+    "title": "Tetrahedron Node",
+    "section": "Properties",
+    "text": "Properties\nThis node has no properties."
+  },
+  {
+    "objectID": "tetrahedron.html#outputs",
+    "href": "tetrahedron.html#outputs",
+    "title": "Tetrahedron Node",
+    "section": "Outputs",
+    "text": "Outputs\n\nMesh\nStandard geometry output.\n\n\nUV Map\nA 2D vector representing the default X/Y coordinates of the UV Map for the primitive’s shape. This can be connected to the /modeling/geometry_nodes/attribute/store_named_attribute, to be used once the Geometry Nodes Modifier get applied. The UV map must be stored on the face corner in order to be accessed."
+  },
+  {
+    "objectID": "dodecahedron.html",
+    "href": "dodecahedron.html",
+    "title": "Dodecahedron Node",
+    "section": "",
+    "text": "The Dodecahedron node generates a dodecahedron mesh with variable side dimensions. The inside of the mesh is hollow."
+  },
+  {
+    "objectID": "dodecahedron.html#inputs",
+    "href": "dodecahedron.html#inputs",
+    "title": "Dodecahedron Node",
+    "section": "Inputs",
+    "text": "Inputs\n\nSize\nSide lengths along each of the main axes."
+  },
+  {
+    "objectID": "dodecahedron.html#properties",
+    "href": "dodecahedron.html#properties",
+    "title": "Dodecahedron Node",
+    "section": "Properties",
+    "text": "Properties\nThis node has no properties."
+  },
+  {
+    "objectID": "dodecahedron.html#outputs",
+    "href": "dodecahedron.html#outputs",
+    "title": "Dodecahedron Node",
+    "section": "Outputs",
+    "text": "Outputs\n\nMesh\nStandard geometry output.\n\n\nUV Map\nA 2D vector representing the default X/Y coordinates of the UV Map for the primitive’s shape. This can be connected to the /modeling/geometry_nodes/attribute/store_named_attribute, to be used once the Geometry Nodes Modifier get applied. The UV map must be stored on the face corner in order to be accessed."
+  },
+  {
+    "objectID": "tetrakis.html",
+    "href": "tetrakis.html",
+    "title": "Tetrakis Hexahedron Node",
+    "section": "",
+    "text": "The Tetrakis Hexahedron node generates a tetrahedron mesh with variable side dimensions. The inside of the mesh is hollow."
+  },
+  {
+    "objectID": "tetrakis.html#inputs",
+    "href": "tetrakis.html#inputs",
+    "title": "Tetrakis Hexahedron Node",
+    "section": "Inputs",
+    "text": "Inputs\n\nSize\nSide lengths along each of the main axes."
+  },
+  {
+    "objectID": "tetrakis.html#properties",
+    "href": "tetrakis.html#properties",
+    "title": "Tetrakis Hexahedron Node",
+    "section": "Properties",
+    "text": "Properties\nThis node has no properties."
+  },
+  {
+    "objectID": "tetrakis.html#outputs",
+    "href": "tetrakis.html#outputs",
+    "title": "Tetrakis Hexahedron Node",
+    "section": "Outputs",
+    "text": "Outputs\n\nMesh\nStandard geometry output.\n\n\nUV Map\nA 2D vector representing the default X/Y coordinates of the UV Map for the primitive’s shape. This can be connected to the /modeling/geometry_nodes/attribute/store_named_attribute, to be used once the Geometry Nodes Modifier get applied. The UV map must be stored on the face corner in order to be accessed."
+  },
+  {
+    "objectID": "octahedron.html",
+    "href": "octahedron.html",
+    "title": "Octahedron Node",
+    "section": "",
+    "text": "The Octahedron node generates a tetrahedron mesh with variable side dimensions. The inside of the mesh is hollow."
+  },
+  {
+    "objectID": "octahedron.html#inputs",
+    "href": "octahedron.html#inputs",
+    "title": "Octahedron Node",
+    "section": "Inputs",
+    "text": "Inputs\n\nSize\nSide lengths along each of the main axes."
+  },
+  {
+    "objectID": "octahedron.html#properties",
+    "href": "octahedron.html#properties",
+    "title": "Octahedron Node",
+    "section": "Properties",
+    "text": "Properties\nThis node has no properties."
+  },
+  {
+    "objectID": "octahedron.html#outputs",
+    "href": "octahedron.html#outputs",
+    "title": "Octahedron Node",
+    "section": "Outputs",
+    "text": "Outputs\n\nMesh\nStandard geometry output.\n\n\nUV Map\nA 2D vector representing the default X/Y coordinates of the UV Map for the primitive’s shape. This can be connected to the /modeling/geometry_nodes/attribute/store_named_attribute, to be used once the Geometry Nodes Modifier get applied. The UV map must be stored on the face corner in order to be accessed."
+  },
+  {
+    "objectID": "extrude.html",
+    "href": "extrude.html",
+    "title": "Extrude node",
+    "section": "",
+    "text": "Extrude Mesh node\n\n\nThe Extrude Node generates new vertices, edges, or faces, on selected geometry and transforms them based on an offset.\nThe operations are similar to the extrude tools in mesh edit mode, though there are some differences. Most importantly, the node never keeps the back-faces of the extrusion in place, they are always removed. Attribute propagation rules may also be different.\n\n\nMesh\nStandard geometry input.\nSelection\nWhether to extrude each element. True values mean elements will be extruded, false values mean elements will remain unchanged.\nOffset\nThe amount to translate the new geometry on each axis. The default value of the “Offset” input is the mesh’s normals. To change the distance, the Scale input can be used. However, when an input is computed for this directly, the length of the input vectors is used.\nTip: Because the default input is the mesh’s normals, they may need to be calculated just for this node. If the extrusion is only in one direction anyway, a potential performance improvement is to connect a constant vector instead.\nScale\nThe factor used to scale elements or groups of elements.\nIndividual Face Mode Only\nWhether to extrude each face individually rather than extruding connected groups of faces together as regions. A quad side face will be generated on each side of every selected face.\n\n\n\nMode\n\nVertices: This mode is quite simple, it just attaches new edges and vertices to the selected vertices.\nEdges: Attach new quad faces to the selected edges. Vertices shared by the original selected vertices are also shared in the duplicated edges.\nNote: Depending on the situation, the normals of the new faces may be arbitrary. If the selected edges only have one selected face, then the node can pick a consistent orientation for the new faces, but if there is more than one connected face, or no connected faces, the normals may have to be adjusted afterwards.\nFaces: Extrudes contiguous regions of selected faces, or each selected face individually, depending on the Individual boolean input.\nWhen the Individual input is false, the node will find regions of connected faces and generate new “side” faces on the boundaries of those regions. If the whole mesh is selected and it is already a Manifold shape, then result will just be that the whole mesh moves. Any vertices, edges, or faces on the inside of the face regions are just moved, they are not duplicated.\n\n\n\n\nMesh\nStandard geometry output.\nTop\nA boolean field output containing the top new top geometry. The domain depends on the selected mode. In Vertex mode, this is a selection of the new vertices. In Edge mode, this is a selection of the duplicated edges, and in Face mode, it is a selection of the new faces.\nSide\nA boolean field output containing the “side” of the new geometry. In Vertex mode, it selects the new edges, in Edge mode, the new faces, and in Face mode, the new side faces are selected, which are all of the new faces that aren’t in the Top\nThe Extrude Mesh Node generates new vertices, edges, or faces, on selected geometry and transforms them based on an offset.\nThe operations are similar to the extrude tools in mesh edit mode, though there are some differences. Most importantly, the node never keeps the back-faces of the extrusion in place, they are always removed. Attribute propagation rules may also be different.\n\n\n\nMesh\nStandard geometry input.\nSelection\nWhether to extrude each element. True values mean elements will be extruded, false values mean elements will remain unchanged.\nOffset\nThe amount to translate the new geometry on each axis. The default value of the “Offset” input is the mesh’s normals. To change the distance, the Scale input can be used. However, when an input is computed for this directly, the length of the input vectors is used.\nTip: Because the default input is the mesh’s normals, they may need to be calculated just for this node. If the extrusion is only in one direction anyway, a potential performance improvement is to connect a constant vector instead.\nScale\nThe factor used to scale elements or groups of elements.\nIndividual Face Mode Only\nWhether to extrude each face individually rather than extruding connected groups of faces together as regions. A quad side face will be generated on each side of every selected face.\n\n\n\nMode\n\nVertices: This mode is quite simple, it just attaches new edges and vertices to the selected vertices.\nEdges: Attach new quad faces to the selected edges. Vertices shared by the original selected vertices are also shared in the duplicated edges.\nNote: Depending on the situation, the normals of the new faces may be arbitrary. If the selected edges only have one selected face, then the node can pick a consistent orientation for the new faces, but if there is more than one connected face, or no connected faces, the normals may have to be adjusted afterwards.\nFaces: Extrudes contiguous regions of selected faces, or each selected face individually, depending on the Individual boolean input.\nWhen the Individual input is false, the node will find regions of connected faces and generate new “side” faces on the boundaries of those regions. If the whole mesh is selected and it is already a Manifold shape, then result will just be that the whole mesh moves. Any vertices, edges, or faces on the inside of the face regions are just moved, they are not duplicated.\n\n\n\n\nMesh\nStandard geometry output.\nTop\nA boolean field output containing the top new top geometry. The domain depends on the selected mode. In Vertex mode, this is a selection of the new vertices. In Edge mode, this is a selection of the duplicated edges, and in Face mode, it is a selection of the new faces.\nSide\nA boolean field output containing the “side” of the new geometry. In Vertex mode, it selects the new edges, in Edge mode, the new faces, and in Face mode, the new side faces are selected, which are all of the new faces that aren’t in the Top"
+  },
+  {
+    "objectID": "bravais.html",
+    "href": "bravais.html",
+    "title": "Bravais node",
+    "section": "",
+    "text": "Create a bravais lattices. Useful for instancing grains/ assemblies / objects. The input are a, b, c and gamma parameters. The number of objects is automatically increases while increasing the size of the lattice."
+  },
+  {
+    "objectID": "elongation.html",
+    "href": "elongation.html",
+    "title": "Elongation/thickness node",
+    "section": "",
+    "text": "Elongate or/and increase, decrease the thickenss of custom input grains/assembly/object"
+  },
+  {
+    "objectID": "hkl.html",
+    "href": "hkl.html",
+    "title": "h k l node",
+    "section": "",
+    "text": "Create h k l faces and planes according to the input given by the user. It includes also options for labeling, multiplying the indexes by an integer factor and increase the face (plane) size."
+  },
+  {
+    "objectID": "mirror.html",
+    "href": "mirror.html",
+    "title": "Mirror node",
+    "section": "",
+    "text": "Mirror the selected obj (can be a plane, a grain or a crystal assembly) on the X, Y or Z axis. Multiple axes can be selected. The node can be also applied recursively to mirror mirrored objects."
+  },
+  {
+    "objectID": "non-iso.html",
+    "href": "non-iso.html",
+    "title": "Non Isometric Primitives",
+    "section": "",
+    "text": "Includes nodes for creating crystal forms for\n\nrhombic\ntetragonal\nditetragonal\ntrigonal\nditrigonal\nhexagonal\ndihexagonal\n\nprism, pyramids and dipyramids."
   }
 ]

@@ -9,20 +9,23 @@ website:
         text: Home
      
   sidebar:
-    style: "floating"
+    style: "docked"
     search: true
+    collapse-level: 6
     contents:
       - section: "Basics"
         contents:
           - index.qmd
           - install.qmd
-          
       - section: "Nodes"
         contents:
-         
-          - tools.qmd
-          - primitives.qmd
-          - growth_pattern.qmd
+          - section: "Forms"
+            contents:
+            - iso.qmd
+            - Non-iso.qmd
+          - section: "Tools"
+            contents:
+            - tools.qmd 
 format:
   html:
     theme: simplex

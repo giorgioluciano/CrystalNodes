@@ -1,13 +1,11 @@
 ---
-title: "Tools"
+title: "Non Isometric Primitives"
 ---
 
+Includes nodes for easying the workflow for creating crystal forms. Tools included are
 
-the following tools are present
-
-- Extrude
-- h k l 
-- Elongation/Thickness
-- Mirror
-- Bravais
-
+-   Bravais
+-   Elongation/Thickness
+-   Extrude
+-   hkl
+-   Mirror
