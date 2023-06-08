@@ -1,0 +1,31 @@
+---
+title: "Crystallographics forms"
+---
+
+The Crystallographic menu is subdivided in Isometric and Non Isometric forms
+
+## Isometric:
+
+![Isometric forms](images/cn-cf-isometric-menu-animated.gif)Select the Iso crystal form you would like to create. If you select more then one form you can apply the [modifier](https://docs.blender.org/manual/en/latest/modeling/modifiers/introduction.html "blender modifier introduction from docs.blender") and then separate the forms created by material (each form will be created with a different default material)
+
+![Separate by Materials](images/cn-cf-isometric-separate.png){width="1920"}
+
+## Non Isometric
+
+![Non Isometric Crystal Forms nodes](images/cn-cf-ni-menu.png)
+
+The following Non Isometric Crystal forms can be created via the following nodes
+
+1.  tetragonal trapezohedron
+
+2.  trigonal - tetragonal  - hexagonal - dihexagonal
+
+3.  ditrigonal
+
+4.  rhombic tetragonal
+
+5.  non iso ditetragonal
+
+All the nodes (except the tetragonal trapezohedron) have options for building the Prism, Pyramid or Dypiramid non Isometric forms.
+
+![Nodes ouput](images/cn-cf-niso-iso-animated.gif)

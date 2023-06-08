@@ -1,0 +1,7 @@
+---
+title: "Extrude node"
+---
+
+Wrap node for extrude function. The user can select the face to extrude. Helpful while used in combination with the iso/non iso forms and with the hk l node
+
+![](images/cn-tools-extrude-example01.png){width="1600"}
