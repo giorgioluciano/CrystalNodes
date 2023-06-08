@@ -44,7 +44,7 @@
   {
     "objectID": "tools.html",
     "href": "tools.html",
-    "title": "Non Isometric Primitives",
+    "title": "Tools",
     "section": "",
     "text": "Includes nodes for easying the workflow for creating crystal forms. Tools included are\n\nBravais\nElongation/Thickness\nExtrude\nhkl\nMirror"
   },
