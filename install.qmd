@@ -4,7 +4,7 @@ title: "Installation"
 
 ## Download
 
-Download the latest bundled release from the [releases page](https://github.com/giorgioluciano/CrystalNodes/tree/main/CrystalNodes/releases). Don't download the GitHub repo itself, as this won't install inside of Blender.
+Download the latest bundled release from the [releases page](https://github.com/giorgioluciano/CrystalNodes/releases/). Don't download the GitHub repo itself, as this won't install inside of Blender.
 
 ::: callout-note
 # Safari
