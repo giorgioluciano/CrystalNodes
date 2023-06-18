@@ -2,16 +2,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "What is it?",
+    "title": "Overview on Youtube",
     "section": "",
-    "text": "Crystal Nodes (CN) is an addon for the 3D modelling & animation program Blender that enables easy creation of crystals illustrations. CN is focused on providing tools for drawing Crystallography illustrations and it is not (for now) a computational tool for calculating inorganic structures"
+    "text": "Click on the screenshot to play the video\nCrystal Nodes (CN) is an addon for the 3D modelling & animation program Blender that enables easy creation of crystals illustrations. CN is focused on providing tools for drawing Crystallography illustrations and it is not (for now) a computational tool for calculating inorganic structures"
   },
   {
     "objectID": "index.html#features",
     "href": "index.html#features",
-    "title": "What is it?",
+    "title": "Overview on Youtube",
     "section": "Features:",
-    "text": "Features:\n\ngeneric tools for creating a basic grain forms (extended primitives node and nodes for non isometric crystal system)\ntools for instancing grains according to the most common growth pattern (radiating, plumose, parallel, granular, felted, foliated )\ntools for creating h,k,l planes, extruding faces, mirroring faces and to instance objs according to Bravais translation"
+    "text": "Features:\n\ngeneric tools for creating a basic grain forms (extended primitives node and nodes for non isometric crystal system)\ntools for instancing grains according to the most common growth pattern (radiating, plumose, parallel, granular, felted, foliated )\ntools for creating h,k,l planes, extruding faces, mirroring faces and to instance objs according to Bravais translation\n\n\n\n\nDOI"
   },
   {
     "objectID": "tools.html",

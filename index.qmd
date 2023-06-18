@@ -3,8 +3,12 @@ title: "CrystalNodes"
 ---
 
 ---
-title: "What is it?"
+title: Overview on Youtube
 ---
+
+[![](images/youtubescreeenshot.jpg){width="1200"}](https://youtu.be/bYaKjkJJqaw)
+
+Click on the screenshot to play the video
 
 Crystal Nodes (CN) is an addon for the 3D modelling & animation program [Blender](https://blender.org) that enables easy creation of crystals illustrations. CN is focused on providing tools for drawing Crystallography illustrations and it is not (for now) a computational tool for calculating inorganic structures
 
@@ -15,3 +19,5 @@ Crystal Nodes (CN) is an addon for the 3D modelling & animation program [Blender
 -   tools for instancing grains according to the most common growth pattern (radiating, plumose, parallel, granular, felted, foliated )
 
 -   tools for creating h,k,l planes, extruding faces, mirroring faces and to instance objs according to Bravais translation
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8024424.svg)](https://doi.org/10.5281/zenodo.8024424)
